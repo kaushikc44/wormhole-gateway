@@ -78,10 +78,11 @@ export default function IntroGateway(){
         <p className="pt-5 text-white text-xl">This resulting ICS-20 token becomes interchangeable through Strangelove's packet forward middleware. Gateway also utilizes IBC Hooks for seamless integration with CosmWasm contracts. [More details to it are mentioned in the upcoming section.] </p>
         <p className="pt-5 text-white text-xl">Gateway's core function is to enhance transparency and transaction security on its public ledger.</p>
         <div className="flex flex-col items-center justify-center pt-10"> 
+        
             <Image src="/gatewayexternal.png" width={900} height={900} alt="External Chain <-> Cosmos Supported Chain" /> 
-            <p>External Chain  Cosmos Supported Chain</p>
+            <p>External Chain &rarr; Cosmos Supported Chain</p>
             <Image src="/gatewayinternalchain.png" width={900} height={900} alt=" Cosmos Chain <-> Cosmos Chain" className="pt-7"/> 
-            <p> Cosmos Chain Cosmos Chain</p>
+            <p> Cosmos Chain  &rarr; Cosmos Chain</p>
         </div>
         <p className="text-2xl text-white font-bold pt-10">Benefits of Gateway:
 </p>
