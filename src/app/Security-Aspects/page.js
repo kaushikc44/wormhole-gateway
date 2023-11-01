@@ -39,7 +39,7 @@ In essence, VAAs simply attest that <span className="italic">"this contract on t
 <p className="pt-5  text-white text-xl">Gateway was introduced for various reasons; however, it also leverages this advantage while addressing the corresponding drawback. As we are aware, the Gateway is an application-specific blockchain which connects the Core Wormhole Protocol with the entire suite of Cosmos Appchains, all without the need to run a full node for each individual Appchain.
 
 </p>
-<p className="pt-5  text-white text-xl">Light clients have long been the desired security solution for bridging because of their ability to accurately verify blockchain data without the need to maintain a full copy of all data on the connected, with IBC representing the gold standard.
+<p className="pt-5  text-white text-xl">Light clients have long been the desired security solution for bridging because of their ability to accurately verify blockchain data without the need to maintain a full copy of all data on each connected chain, with IBC representing the gold standard.
 </p>
 <p className="pt-5  text-white text-xl">By utilizing IBC for transporting Wormhole messages, Gateway harnesses the proven IBC protocol, reducing the infrastructure overhead on the Guardian network. Rather than requiring a full-node on every Cosmos SDK chain, the Guardian network can run a node on Gateway and utilize IBC for seamless interchain transfers. This approach optimizes efficiency and enhances the security of the entire ecosystem.
 
