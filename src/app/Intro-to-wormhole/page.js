@@ -42,7 +42,7 @@ export default function IntroWormhole(){
         <p className="pt-7 text-white text-xl">Further, there are three core pillars that Wormhole enables for the blockchain world:</p>
         <ul className="list-decimal pl-10 pt-3">
             <li className="pt-4">
-                <p className="text-white text-xl">xAssests: Taking assets cross-chain which means a next-generation, chain and path agnostic wrapped token i.e., can move freely between chains.</p>
+                <p className="text-white text-xl">xAssets: Taking assets cross-chain which means a next-generation, chain and path agnostic wrapped token i.e., can move freely between chains.</p>
             </li>
             <li className="pt-4">
                 <p className="text-white text-xl">xApps: Taking dApp cross-chain with least development effort.</p>
